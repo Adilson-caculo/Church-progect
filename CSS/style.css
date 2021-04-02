@@ -1,7 +1,7 @@
 /* Geral style */
 *{
     margin: 0px;
-    padding: 0px;
+ padding: 0px;
    box-sizing: content-box;
 }
 html{
@@ -27,23 +27,17 @@ html{
 header{
 
 grid-area: h;
-display: flex;
-    
-  justify-content: space-around;
+display: flex;   
+justify-content: space-around;
 }
-nav{
-  
-}
+
 header span{
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid black;
+    border: 1px solid black;
     margin:  8px;
     padding: 10px;
-    padding-top: -2px ;
-    justify-items: flex-end;
     font-weight: bolder;
-   
-
+    display: block;
 }
 nav a{
     text-decoration: none;
@@ -59,16 +53,11 @@ nav a:hover{
     background-color:rgb(255, 255, 101);
     transition: ease 0.5s;
     border-radius: 5px;
-
-
-
 }
 /* Estilização do slide */
 .box img {
 
 }
-
-
 
 /* Estilização do conteudo prinçipal  */
 main{
@@ -97,11 +86,9 @@ color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 11%;
     font-style: 20% ;
-  
 }
 
-.divmain1  a{
- 
+.divmain1  a{ 
   font-size: 1.6rem;
    margin-top: 20px;
 text-decoration: none;
@@ -157,38 +144,28 @@ font-family: sans-serif;
     height: 300px;
     margin: 60px;
   margin: 0 auto;
- 
-
 }
 .content1{
-    display: flex;
-    margin: 20px;
+display: flex;
+margin: 20px;
     
 }
 .content2{
-    display: flex;
-   
-   
+display: flex;   
 }
-.programas img{
- 
-}
-.progamcard1{
-   
-    margin-left: 5%;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.progamcard1{  
+margin-left: 5%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .programas div h3{
    margin: 0 auto;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 .contactos{
-
-
 height: 40%;
 margin-top: 400px;
 margin-left: 0px;
-
 }
 .contactos .container {
 display: flex;
@@ -230,7 +207,6 @@ margin: 0 auto;
 .contactos div span{
    font-size: small;
    color: rgba(0, 0, 0, 0.72);
-
 }
 
 .a{
@@ -255,12 +231,7 @@ footer{
  height: 40%;
 display: block;
 margin-bottom: -100px;
-
- background-color: rgba(22, 22, 20, 0.981)  ;
- 
-
-
-
+background-color: rgba(22, 22, 20, 0.981);
 }
 .footer1 div a::after{
     content: " ";
@@ -279,6 +250,7 @@ footer h3{
     margin-left: 0px;
     padding-bottom:10px ;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     
 }
 .footer1{
@@ -343,22 +315,6 @@ text-align: center;
        margin-top: 2000px ;
     }
 }
-@media(max-width:962){
-
-   }
-@media(max-width:650px){
-    
-   
-  
-    
-        
-    }
-    .footer1{
-        flex-wrap: wrap;
-       
-}
-
-
 
 @media(max-width:654px){
     nav{
@@ -424,6 +380,7 @@ text-align: center;
         width: 300px ;
         padding-top: 50px;
     }
+
 .contactos{
     margin-top: 2000px;
 }
@@ -435,16 +392,4 @@ margin-top: 3200px;
     .contactos{
         margin-top: 2100px;
     }
-}
-@media(max-width:447px){
-   .divmain1{
-  
-   
-}
-/*@media(max-width:400px){
-    .menu-section.on{
-        width: 180vw;
-        height: 200vh;
-        overflow: hidden;
-    } 
 }
